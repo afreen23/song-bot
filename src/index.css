@@ -1,0 +1,40 @@
+html {
+ height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+21,474747+39,1e1e1e+42,000000+47,2c2c2c+48,111111+60,2b2b2b+76,1c1c1c+91,131313+100 */
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  background: -moz-linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(0,128,128,1) 93%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,0,128,1)), color-stop(93%, rgba(0,128,128,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(0,128,128,1) 93%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(0,128,128,1) 93%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(0,128,128,1) 93%, rgba(0,128,128,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(0,128,128,1) 93%, rgba(0,128,128,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#000080',GradientType=1 ); /* ie6-9 */
+  background: linear-gradient(160deg, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0.23)), url('magenta-guitar-neck630.jpg');
+
+ /* */
+  background-blend-mode: multiply !important;
+  background-size: cover;
+
+
+  /*background-image: url('magenta-guitar-neck630.jpg');*/
+  /*border: 1px solid white;*/
+}
+
+#root {
+	overflow-y: hidden;
+	flex-grow: 1;
+/*	border: 1px solid red;*/
+	height: 100vh;
+	width: 100%;
+}
+
